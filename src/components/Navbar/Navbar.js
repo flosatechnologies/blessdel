@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/NavbarMenu.css";
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "../../images/logo.jpg";
+import logo from "../../assets/images/logo.jpg";
 
 export default class NavbarMenu extends Component {
   render() {
