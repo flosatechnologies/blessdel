@@ -10,6 +10,7 @@ export default class NavbarMenu extends Component {
       <div>
         <Navbar bg="primary" expand="lg">
           <img
+            id="img-cage"
             width="50px"
             height="auto"
             className="img-responsive"
