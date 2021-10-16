@@ -8,8 +8,18 @@ class Home extends Component {
     return (
       <Container fluid className="bg-image image-fluid">
         <div id="main" className="overlay">
-          <h3>We stand for</h3>
-          <p>Integrity, Honesty, Ethical, Cost Effective and Trustworthy</p>
+          <h1 className="header">We stand for</h1>
+          <p className="header">
+            Integrity, Honesty, <br />
+            Ethical, Cost Effective & <br />
+            Trustworthy
+          </p>
+
+          <Row className="btn">
+            <Col className="one">
+              <button className="btn-btn">Hire Us</button>
+            </Col>
+          </Row>
         </div>
       </Container>
     );
