@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import WhoWeAre from "./pages/whoweare";
 import Services from "./pages/services";
 import Projects from "./pages/projects";
@@ -8,7 +7,7 @@ import ContactUs from "./pages/contactus";
 import Home from "./pages/home";
 import NavbarMenu from "./components/Navbar/Navbar";
 import FooterPage from "./components/FooterPage";
-
+import imageComponent from "./components/imageComponent";
 function App() {
   return (
     <div>
@@ -16,6 +15,7 @@ function App() {
       <Home />
       <WhoWeAre />
       <Services />
+      <imageComponent />
       <Projects />
       <ContactUs />
       <FooterPage />

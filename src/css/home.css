@@ -26,3 +26,37 @@ body::before {
   justify-content: center;
   flex-direction: column;
 }
+
+#header {
+  margin-top: 5em;
+}
+
+.btn-btn {
+  margin-top: 5em;
+}
+#btn {
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+p {
+  color: #fff;
+  font-family: "Courier";
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10em 1em 1em 7em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 55em;
+  animation: type 10s steps(50, end);
+}
+
+@keyframes type {
+  from {
+    width: 10px;
+  }
+}
