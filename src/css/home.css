@@ -28,6 +28,46 @@
   flex-direction: column;
 }
 
+
+/* #header {
+  margin-top: 5em;
+}
+
+.btn-btn {
+  margin-top: 5em;
+}
+#btn {
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
+}
+
+p {
+  color: #fff;
+  font-family: "Courier";
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20em;
+  margin-right: 10em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 55em;
+  animation: type 10s steps(50, end);
+}
+
+@keyframes type {
+  from {
+    width: 10px;
+  } */
+
 .header {
   font-size: 3vw;
 }
@@ -45,4 +85,5 @@
   height: 40px;
   border-radius: 10px;
   font-weight: bold;
+
 }

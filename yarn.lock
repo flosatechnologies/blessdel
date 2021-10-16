@@ -9353,6 +9353,11 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-responsive-font-size@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-responsive-font-size/-/react-responsive-font-size-1.1.2.tgz#ae104370ed07be96543d58e399eb1750bc19e498"
+  integrity sha512-JpkGwDLT35ci15cSmWEuQcb6m35WzEFY5P2OfVSZyH8oSLFWP+GGIomZX8t1W0chBdPjiXnySLToVu3I3P5aKw==
+
 react-router-dom@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.3.0.tgz#da1bfb535a0e89a712a93b97dd76f47ad1f32363"
