@@ -7,7 +7,7 @@ import ContactUs from "./pages/contactus";
 import Home from "./pages/home";
 import NavbarMenu from "./components/Navbar/Navbar";
 import FooterPage from "./components/FooterPage";
-import imageComponent from "./components/imageComponent";
+
 function App() {
   return (
     <div>
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <WhoWeAre />
       <Services />
-      <imageComponent />
+
       <Projects />
       <ContactUs />
       <FooterPage />

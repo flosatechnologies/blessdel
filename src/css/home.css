@@ -41,6 +41,11 @@ body::before {
   width: 100px;
   font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
 }
 
 p {
@@ -48,7 +53,8 @@ p {
   font-family: "Courier";
   font-size: 20px;
   font-weight: bold;
-  margin: 10em 1em 1em 7em;
+  margin-left: 20em;
+  margin-right: 10em;
   white-space: nowrap;
   overflow: hidden;
   width: 55em;
