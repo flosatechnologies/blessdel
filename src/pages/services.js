@@ -2,8 +2,8 @@ import React from "react";
 
 function Services() {
   return (
-    <div>
-      <h1>What we do</h1>
+    <div id="services">
+      <h1>Services</h1>
     </div>
   );
 }

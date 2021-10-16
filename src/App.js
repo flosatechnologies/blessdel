@@ -7,10 +7,21 @@ import Projects from "./pages/projects";
 import ContactUs from "./pages/contactus";
 import Home from "./pages/home";
 import NavbarMenu from "./components/Navbar/Navbar";
+import FooterPage from "./components/FooterPage";
 
 function App() {
   return (
-    <Router>
+    <div>
+      <NavbarMenu />
+      <Home />
+      <WhoWeAre />
+      <Services />
+      <Projects />
+      <ContactUs />
+      <FooterPage />
+    </div>
+
+    /**<Router>
       <NavbarMenu />
       <Switch>
         <Route path="/" exact component={Home} />
@@ -19,7 +30,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contactus" component={ContactUs} />
       </Switch>
-    </Router>
+    </Router>**/
   );
 }
 

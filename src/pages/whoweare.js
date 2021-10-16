@@ -3,14 +3,14 @@ import React from "react";
 const WhoWeAre = () => {
   return (
     <div
+      id="whoweare"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
       }}
     >
-      <h1>What we stand for</h1>
+      <h1>Who we Are</h1>
     </div>
   );
 };
