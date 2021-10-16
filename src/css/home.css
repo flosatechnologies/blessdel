@@ -4,9 +4,11 @@ body::before {
   height: 30px;
 }
 .image-fluid {
+
   height: 75vh;
   width: 100%;
   object-fit: cover;
+
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -25,4 +27,23 @@ body::before {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.header {
+  font-size: 3vw;
+}
+
+.subText {
+  font-size: 2vw;
+}
+
+.press {
+}
+
+.button {
+  background-color: #fff;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
 }
