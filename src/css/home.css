@@ -9,6 +9,7 @@ body::before {
   object-fit: cover;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
   background-image: url(../assets/images/D1.jpg);
 }

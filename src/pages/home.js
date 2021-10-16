@@ -17,7 +17,12 @@ class Home extends Component {
 
           <Row className="btn">
             <Col className="one">
-              <button className="btn-btn">Hire Us</button>
+              <button
+                onClick={() => window.location.replace("/#contactus")}
+                className="btn-btn"
+              >
+                Hire Us
+              </button>
             </Col>
           </Row>
         </div>

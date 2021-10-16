@@ -8,6 +8,7 @@ import ContactUs from "./pages/contactus";
 import Home from "./pages/home";
 import NavbarMenu from "./components/Navbar/Navbar";
 import FooterPage from "./components/FooterPage";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <WhoWeAre />
       <Services />
+      <ImageComponent />
       <Projects />
       <ContactUs />
       <FooterPage />
