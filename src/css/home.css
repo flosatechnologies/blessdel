@@ -10,6 +10,7 @@
 
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
   background-image: url(../assets/images/D1.jpg);
 }
@@ -27,6 +28,67 @@
   justify-content: center;
   flex-direction: column;
 }
+
+
+.header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-btn {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 12rem;
+  margin-top: 10rem;
+}
+
+.btn-btn:hover,
+.btn-btn:focus {
+  background-color: orange;
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.one {
+  display: flex;
+}
+/*
+.first_text {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  /* background: black; 
+  position: relative;
+  animation: first_text_anim 3s 1;
+}
+@keyframes first_text_anim {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+*/
 
 #header {
   margin-top: 5em;
@@ -49,21 +111,43 @@
   background-color: orange;
 }
 
+
 p {
   color: #fff;
   font-family: "Courier";
   font-size: 20px;
   font-weight: bold;
+
+  letter-spacing: 1px;
+  margin: 5px 0 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 17em;
+  animation: type 5s steps(60, end);
+
   margin-left: 20em;
   margin-right: 10em;
   white-space: nowrap;
   overflow: hidden;
   width: 55em;
   animation: type 10s steps(50, end);
+
 }
 
 @keyframes type {
   from {
+
+    width: 0;
+  }
+  to {
+    width: 50rem;
+  }
+}
+*/ p {
+  display: inline-block;
+  transform: translateY(65%);
+  opacity: 0;
+
     width: 10px;
   }
 }
@@ -84,4 +168,5 @@ p {
   height: 40px;
   border-radius: 10px;
   font-weight: bold;
+
 }

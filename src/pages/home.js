@@ -7,20 +7,25 @@ class Home extends Component {
     return (
       <div className="bg-image image-fluid">
         <div id="main" className="overlay">
-          <div id="header" className=" text-light text-capitalize">
-            <h1>We stand for</h1>
-          </div>
 
-          <p>Integrity, Honesty, Ethical, Cost Effective & Trustworthy</p>
+          <h1 className="header">We stand for</h1>
+          <p className="header">
+            Integrity, Honesty, <br />
+            Ethical, Cost Effective & <br />
+            Trustworthy
+          </p>
 
-          <div className="md-3 btn-btn">
-            <button
-              id="btn"
-              onClick={() => window.location.replace("/#contactus")}
-            >
-              Hire Us
-            </button>
-          </div>
+          <Row className="btn">
+            <Col className="one">
+              <button
+                onClick={() => window.location.replace("/#contactus")}
+                className="btn-btn"
+              >
+                Hire Us
+              </button>
+            </Col>
+          </Row>
+
         </div>
       </div>
     );
