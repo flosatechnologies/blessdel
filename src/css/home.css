@@ -1,12 +1,13 @@
-body::before {
+/* body::before {
   display: block;
   content: "";
   height: 30px;
-}
+} */
 .image-fluid {
   height: 75vh;
   width: 100%;
   object-fit: cover;
+
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,6 +28,7 @@ body::before {
   justify-content: center;
   flex-direction: column;
 }
+
 
 .header {
   text-align: center;
@@ -87,21 +89,54 @@ body::before {
   }
 }
 */
+
+#header {
+  margin-top: 5em;
+}
+
+.btn-btn {
+  margin-top: 5em;
+}
+#btn {
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
+}
+
+
 p {
   color: #fff;
   font-family: "Courier";
   font-size: 20px;
   font-weight: bold;
+
   letter-spacing: 1px;
   margin: 5px 0 0 5px;
   white-space: nowrap;
   overflow: hidden;
   width: 17em;
   animation: type 5s steps(60, end);
+
+  margin-left: 20em;
+  margin-right: 10em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 55em;
+  animation: type 10s steps(50, end);
+
 }
 
 @keyframes type {
   from {
+
     width: 0;
   }
   to {
@@ -112,4 +147,26 @@ p {
   display: inline-block;
   transform: translateY(65%);
   opacity: 0;
+
+    width: 10px;
+  }
+}
+.header {
+  font-size: 3vw;
+}
+
+.subText {
+  font-size: 2vw;
+}
+
+.press {
+}
+
+.button {
+  background-color: #fff;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+
 }

@@ -1,0 +1,14 @@
+body::before {
+  display: block;
+  content: "";
+  height: 30px;
+}
+.img {
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../assets/images/D5.jpg);
+}

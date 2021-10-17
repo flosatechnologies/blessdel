@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import WhoWeAre from "./pages/whoweare";
 import Services from "./pages/services";
 import Projects from "./pages/projects";
@@ -17,7 +16,10 @@ function App() {
       <Home />
       <WhoWeAre />
       <Services />
+
       <ImageComponent />
+
+
       <Projects />
       <ContactUs />
       <FooterPage />
