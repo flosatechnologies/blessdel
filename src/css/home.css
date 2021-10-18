@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 /* body::before {
   display: block;
   content: "";
@@ -26,6 +27,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.text-bar {
+  margin-left: -5;
 }
 
 .header {
@@ -62,33 +67,11 @@
   display: flex;
 }
 
-.first_text {
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  margin-bottom: 20px;
-  background: black;
-  position: relative;
-  animation: first_text_anim 3s 1;
-}
-@keyframes first_text_anim {
-  0% {
-    color: black;
-    margin-bottom: -40px;
-  }
-  30% {
-    letter-spacing: 25px;
-    margin-bottom: -40px;
-  }
-  85% {
-    letter-spacing: 8px;
-    margin-bottom: -40px;
-  }
-}
-
 #header {
-  margin-top: 5em;
+  margin-top: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .btn-btn {
@@ -109,23 +92,17 @@
 }
 
 p {
-  color: #fff;
-  font-family: "Courier";
-  font-size: 20px;
-  font-weight: bold;
-
-  letter-spacing: 1px;
-  margin: 5px 0 0 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
   white-space: nowrap;
   overflow: hidden;
-  width: 17em;
-  animation: type 5s steps(60, end);
-
-  margin-left: 20em;
+  width: 15em;
+  animation: type 5s steps(50, end);
+  margin-left: 10em;
   margin-right: 10em;
   white-space: nowrap;
   overflow: hidden;
-  width: 55em;
+  width: 50em;
   animation: type 10s steps(50, end);
 }
 
@@ -134,7 +111,7 @@ p {
     width: 0;
   }
   to {
-    width: 50rem;
+    width: 40rem;
   }
 }
 */ p {
@@ -146,14 +123,11 @@ p {
 }
 
 .header {
-  font-size: 3vw;
-}
-
-.subText {
   font-size: 2vw;
-}
-
-.press {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 1.8px;
 }
 
 .button {

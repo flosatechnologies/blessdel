@@ -7,12 +7,10 @@ class Home extends Component {
     return (
       <div className="bg-image image-fluid">
         <div id="main" className="overlay">
+          <h1 id="header">We stand for</h1>
 
-          <h1 className="header">We stand for</h1>
           <p className="header">
-            Integrity, Honesty, <br />
-            Ethical, Cost Effective & <br />
-            Trustworthy
+            Integrity, Honesty, Ethical, Cost Effective & Trustworthy
           </p>
 
           <Row className="btn">
@@ -25,7 +23,6 @@ class Home extends Component {
               </button>
             </Col>
           </Row>
-
         </div>
       </div>
     );
