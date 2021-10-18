@@ -16,10 +16,7 @@ function App() {
       <Home />
       <WhoWeAre />
       <Services />
-
       <ImageComponent />
-
-
       <Projects />
       <ContactUs />
       <FooterPage />

@@ -1,16 +1,18 @@
 import React, { Component } from "react";
+import Background from "../assets/images/D5.jpg";
 
-import D5 from "../assets/images/D5.jpg";
-
-class imageComponent extends Component {
+export default class imageComponent extends Component {
   render() {
     return (
-      <div id="projects" className="container img">
-        <img src={D5} alt="i" />
-        <h3>Cp</h3>
+      <div>
+        <img
+          sizes="(min-width: 36em) 33.3vw, 100vw"
+          src={Background}
+          alt="background"
+          width="100%"
+          id="bg-Image"
+        />
       </div>
     );
   }
 }
-
-export default imageComponent;
