@@ -32,7 +32,7 @@ export default class NavbarMenu extends Component {
       //             </Nav>
       //           </Navbar.Collapse>
 
-      <div id="home" className="pt-5">
+      <div id="home" className="pt-5 mr-20px">
         <Navbar bg="primary" expand="lg" fixed="top">
           <Container>
             <Navbar.Brand href="#home">
@@ -45,22 +45,20 @@ export default class NavbarMenu extends Component {
               />
             </Navbar.Brand>
 
-            <div className="container">
-              <Navbar.Toggle aria-controls="navbarScroll" />
-              <Navbar.Collapse id="navbarScroll">
-                <Nav
-                  className="justify-content-end"
-                  style={{ width: "100%", height: "50%", color: "#fff" }}
-                  navbarScroll
-                >
-                  <Nav.Link href="#home">HOME</Nav.Link>
-                  <Nav.Link href="#whoweare">WHO WE ARE</Nav.Link>
-                  <Nav.Link href="#services">SERVICES</Nav.Link>
-                  <Nav.Link href="#projects">PROJECTS</Nav.Link>
-                  <Nav.Link href="#contactus">CONTACT US</Nav.Link>
-                </Nav>
-              </Navbar.Collapse>
-            </div>
+            <Navbar.Toggle aria-controls="navbarScroll" className="bg-white" />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav
+                className="justify-content-end"
+                style={{ width: "100%", height: "50%", color: "#fff" }}
+                navbarScroll
+              >
+                <Nav.Link href="#home">HOME</Nav.Link>
+                <Nav.Link href="#whoweare">WHO WE ARE</Nav.Link>
+                <Nav.Link href="#services">SERVICES</Nav.Link>
+                <Nav.Link href="#projects">PROJECTS</Nav.Link>
+                <Nav.Link href="#contactus">CONTACT US</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
           </Container>
         </Navbar>
       </div>
