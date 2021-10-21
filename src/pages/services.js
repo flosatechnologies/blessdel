@@ -16,10 +16,12 @@ export default class Services extends Component {
     return (
       <div
         className="container-fluid"
-        style={{ backgroundColor: "orange", paddingLeft: "2rem" }}
+        style={{ backgroundColor: "orange", paddingLeft: "5rem" }}
       >
         <Row className="first">
-          <h1 style={{ textAlign: "center" }}>Services</h1>
+          <h1 id="services" style={{ textAlign: "center" }}>
+            Services
+          </h1>
           <h5
             style={{
               textAlign: "center",
