@@ -1,0 +1,9 @@
+.cardBox {
+  /* width: 100%; */
+}
+
+.second,
+.third,
+.fourth {
+  width: inherit;
+}
