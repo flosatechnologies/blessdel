@@ -1,7 +1,8 @@
 .carouselImg {
   width: 100vw;
-  height: 65vh;
+  height: auto;
   object-fit: fill;
+  /* sizes:"(min-width: 36em) 33.3vw, 100vw" */
 }
 
 .testimonialImg {
