@@ -6,7 +6,7 @@ import testImg2 from "../assets/images/testimony2.jpg";
 import "../css/imageComponent.css";
 import { Container, Col, Row } from "react-bootstrap";
 import EB2 from "../assets/images/E-Block2.jpg";
-import SM from "../assets/images/site meeting.jpg";
+import SUPER from "../assets/images/supervised.jpg";
 import RM from "../assets/images/Minister.jpg";
 import University from "../assets/images/university-cape.jpg";
 import Ben from "../assets/images/Mr.Ben.jpg";
@@ -36,13 +36,13 @@ function Projects() {
           <Carousel.Item>
             <img
               className="d-block w-100 carouselImg projImg"
-              src={SM}
+              src={SUPER}
               alt="Second slide"
             />
 
             <Carousel.Caption>
-              <h3 style={{ color: "#fff" }}>Site Meeting</h3>
-              <h5 style={{ color: "#fff" }}>Our expects at a site meeting</h5>
+              <h3 style={{ color: "#fff" }}>Supervised Project</h3>
+              <h5 style={{ color: "#fff" }}>Supervised classroom block</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

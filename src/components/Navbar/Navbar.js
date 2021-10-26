@@ -33,7 +33,7 @@ export default class NavbarMenu extends Component {
       //           </Navbar.Collapse>
 
       <div id="home" className="pt-5 mr-20px">
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar bg="danger" expand="lg" fixed="top">
           <Container>
             <Navbar.Brand href="#home">
               <img
@@ -45,10 +45,7 @@ export default class NavbarMenu extends Component {
               />
             </Navbar.Brand>
 
-            <Navbar.Toggle
-              aria-controls="navbarScroll"
-              className="bg-primary"
-            />
+            <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="justify-content-end"
