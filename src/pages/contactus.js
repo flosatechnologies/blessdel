@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import { InputGroup, Row, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
+import {
+  ArrowRight,
+  Geo,
+  GeoAlt,
+  Phone,
+  Telephone,
+  Whatsapp,
+} from "react-bootstrap-icons";
 
 function ContactUs() {
   const [validated, setValidated] = useState(false);
@@ -28,11 +36,29 @@ function ContactUs() {
                 BLESSDEL ENTERPRISE today.
               </h5>
               <br />
-              <h5>Head Office Opposite Achimota Police Station- Accra </h5>
+              <h5>
+                <GeoAlt color="white" size={50} /> Achimota Opposite Police
+                Station- Accra
+              </h5>
               <br />
               <h5>
-                <span className="fw-bold">Phone :</span> +233 209 221 302 / +233
-                243 628 024
+                <a
+                  href="tel:+233209221302"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <Phone color="white" size={50} />
+                  +233 209 221 302 / +233 243 628 024
+                </a>
+              </h5>
+
+              <br />
+              <h5>
+                <a
+                  href="https://wa.me/+233243628024"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <Whatsapp color="green" size={50} /> +233 243 628 024
+                </a>
               </h5>
             </div>
             <div className="col-md">

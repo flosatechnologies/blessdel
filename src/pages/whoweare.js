@@ -11,7 +11,7 @@ class WhoWeAre extends Component {
   render() {
     return (
       <Container fluid={true} className="mainBox-WhoWeAreSection">
-        <Row className="firstSubBox-WhoWeAreSection">
+        <Row className="firstSubBox-WhoWeAreSection ">
           <Col lg={{ span: 8, offset: 2 }}>
             <Row>
               <Col id="whoweare" className="sectionHeaderText-WhoWeAreSection">
