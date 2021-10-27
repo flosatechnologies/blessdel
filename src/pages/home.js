@@ -9,9 +9,7 @@ class Home extends Component {
         <div id="main" className="overlay">
           <h1 id="header">We stand for</h1>
 
-          <p className="header">
-            Integrity, Honesty, Ethical, Cost Effective & Trustworthy
-          </p>
+          <p className="header"></p>
 
           <Row className="btn">
             <Col className="one">
