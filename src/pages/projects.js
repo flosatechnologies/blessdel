@@ -5,12 +5,14 @@ import testImg from "../assets/images/testimony1.jpg";
 import testImg2 from "../assets/images/testimony2.jpg";
 import "../css/ImageComponent.css";
 import { Container, Col, Row } from "react-bootstrap";
+
 import EB2 from "../assets/images/E-Block2.jpg";
 import SUPER from "../assets/images/supervised.jpg";
 import RM from "../assets/images/Minister.jpg";
 import University from "../assets/images/university-cape.jpg";
 import Ben from "../assets/images/Mr.Ben.jpg";
 import Sena from "../assets/images/Sena.jpg";
+
 
 function Projects() {
   return (
