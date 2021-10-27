@@ -91,55 +91,46 @@
   background-color: orange;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  color: #313131;
-  font-size: 80px;
-  font-weight: bold;
-  position: absolute;
-  -webkit-animation: color-change 10s infinite alternate;
+p:before {
+  content: "Integrity";
+  color: #e65bb7;
+  animation-name: replacement;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@keyframes color-change {
+@keyframes replacement {
   0% {
-    color: #fff;
+    opacity: 0.5;
+    animation-timing-function: ease-in-out;
   }
-  10% {
-    color: #c6acd1;
-  }
+
   20% {
-    color: #1abc9c;
-  }
-  30% {
-    color: #2ad300;
-  }
-  40% {
+    opacity: 0.5;
+    content: "Honesty";
     color: rgb(0, 255, 255);
+    animation-timing-function: ease-in-out;
   }
   50% {
-    color: #e65bb7;
-  }
-  60% {
+    opacity: 0.5;
+    content: "Ethical";
     color: rgb(238, 255, 0);
   }
-  70% {
-    color: #e5ebdf;
-  }
   80% {
-    color: #f1c40f;
-  }
-  90% {
+    opacity: 0.5;
+    content: "Cost Effective";
     color: #28f175;
   }
   100% {
+    opacity: 0.5;
+    content: "Trustworthy";
     color: rgb(255, 192, 203);
   }
 }
 .header {
-  font-size: 2.8vw;
+  font-size: 4vw;
   text-align: center;
   font-weight: bold;
   color: #fff;
