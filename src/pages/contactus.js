@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../css/contact.css";
 import Form from "react-bootstrap/Form";
 import { InputGroup, Row, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -55,6 +56,7 @@ function ContactUs() {
               <h5>
                 <a
                   href="https://wa.me/+233243628024"
+                  target="_blank"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <Whatsapp color="green" size={50} /> +233 243 628 024
@@ -67,6 +69,7 @@ function ContactUs() {
                 accept-charset="UTF-8"
                 enctype="multipart/form-data"
                 method="POST"
+                target="_blank"
                 noValidate
                 validated={validated}
                 onSubmit={handleSubmit}
@@ -137,13 +140,17 @@ function ContactUs() {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-                <Button
-                  style={{ textAlign: "center" }}
+                <input
+                  style={{
+                    width: "10rem",
+                    height: "3rem",
+                    fontWeight: "bold",
+                    borderRadius: "5px",
+                    pointer: "cursor",
+                  }}
                   type="submit"
-                  className="bg-light text-dark fw-bold submitBtn"
-                >
-                  Submit
-                </Button>
+                  value="Submit"
+                />
               </Form>
             </div>
           </div>

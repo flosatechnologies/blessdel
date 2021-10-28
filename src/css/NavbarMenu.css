@@ -1,16 +1,17 @@
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(14, 13, 13, 0.7) !important;
+  color: #fff !important;
   background-color: orange;
   border-radius: 8px;
 }
 
-/* img,
-svg {
-  vertical-align: middle;
-  padding-left: 20px;
-} */
+#nav1 {
+  background-color: #f00; /*whichever you want*/
+  opacity: 0.6;
+  filter: (opacity=70);
+}
