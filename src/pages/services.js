@@ -14,9 +14,9 @@ import Agro from "../assets/images/agro.jpg";
 export default class Services extends Component {
   render() {
     return (
-      <div id="services">
+      <div id="services" className="pt-5" style={{ backgroundColor: "orange" }}>
         <div
-          className="container-fluid"
+          className="container-fluid pt-5"
           style={{ backgroundColor: "orange", paddingLeft: "2.2rem" }}
         >
           <Row className="first">

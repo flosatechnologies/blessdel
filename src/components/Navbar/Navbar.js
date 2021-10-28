@@ -33,7 +33,7 @@ export default class NavbarMenu extends Component {
       //           </Navbar.Collapse>
 
       <div id="home" className="pt-5 mr-20px">
-        <Navbar bg="danger" expand="lg" fixed="top">
+        <Navbar bg="danger" expand="md" className="navbar fixed-top">
           <Container>
             <Navbar.Brand href="#home">
               <img
