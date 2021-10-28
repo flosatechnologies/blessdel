@@ -129,7 +129,11 @@ function ContactUs() {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-                <Button type="submit" className="bg-light text-dark fw-bold">
+                <Button
+                  style={{ textAlign: "center" }}
+                  type="submit"
+                  className="bg-light text-dark fw-bold submitBtn"
+                >
                   Submit
                 </Button>
               </Form>

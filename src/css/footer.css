@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  div.copyrightInfo {
+    text-align: center;
+  }
+  div.developerTextContainer {
+    text-align: center;
+
+    font-size: 15px;
+    padding: 6px 0px;
+  }
+}
+.copyrightInfo {
+  text-align: left;
+}
+
+.developerTextContainer {
+  text-align: right;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 3px 0px;
+}
