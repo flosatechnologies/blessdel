@@ -209,12 +209,14 @@ class WhoWeAre extends Component {
               textAlign: "center",
             }}
           >
-            <Row className="lookNoFurtherText">Look no further</Row>
+            <Row>
+              <Col className="lookNoFurtherText">Look no further</Col>
+            </Row>
             <Row>
               {/* <Col xxl={1} xl={1} lg={1} md={1} sm={1} xs={1}>
                 
               </Col> */}
-              <Col style={{ textAlign: "left" }}>
+              <Col style={{ textAlign: "center" }}>
                 <a
                   className="contactLinkContainer"
                   href="tel: +233 209 221 302"
