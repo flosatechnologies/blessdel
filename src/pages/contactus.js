@@ -62,7 +62,15 @@ function ContactUs() {
               </h5>
             </div>
             <div className="col-md">
-              <Form noValidate validated={validated} onSubmit={handleSubmit}>
+              <Form
+                action="https://formkeep.com/f/43fcd44c02ac"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
+                method="POST"
+                noValidate
+                validated={validated}
+                onSubmit={handleSubmit}
+              >
                 <Form.Group
                   as={Col}
                   controlId="validationCustom01"
