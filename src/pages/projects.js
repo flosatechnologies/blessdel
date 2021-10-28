@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "../css/projects.css";
 import testImg from "../assets/images/testimony1.jpg";
 import testImg2 from "../assets/images/testimony2.jpg";
-import "../css/imageComponent.css";
+import "../css/ImageComponent.css";
 import { Container, Col, Row } from "react-bootstrap";
 import EB2 from "../assets/images/E-Block2-edited.jpg";
 import SUPER from "../assets/images/supervised-edited.jpg";
@@ -11,7 +11,6 @@ import RM from "../assets/images/Minister-edited.jpg";
 import University from "../assets/images/university-cape-edited.jpg";
 import Ben from "../assets/images/Mr.Ben-edited.jpg";
 import Sena from "../assets/images/Sena-edited.jpg";
-
 
 function Projects() {
   return (
