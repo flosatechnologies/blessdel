@@ -1,16 +1,8 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "../css/contact.css";
-import { InputGroup, Row, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
-import {
-  ArrowRight,
-  Geo,
-  GeoAlt,
-  Phone,
-  Telephone,
-  Whatsapp,
-} from "react-bootstrap-icons";
+import { GeoAlt, Phone, Whatsapp } from "react-bootstrap-icons";
 
 function ContactUs() {
   const [validated, setValidated] = useState(false);

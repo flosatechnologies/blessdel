@@ -131,7 +131,7 @@ function Projects() {
                           <img
                             src={testImg}
                             className="testimonialImg"
-                            alt="testimonial image"
+                            alt="testimonialTwo"
                           />
                         </Col>
                       </Row>
@@ -187,7 +187,7 @@ function Projects() {
                           <img
                             src={testImg2}
                             className="testimonialImg"
-                            alt="testimonial image"
+                            alt="testimonialOne"
                           />
                         </Col>
                       </Row>
