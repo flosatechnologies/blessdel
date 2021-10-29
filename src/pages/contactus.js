@@ -138,17 +138,24 @@ function ContactUs() {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-                <input
-                  style={{
-                    width: "10rem",
-                    height: "3rem",
-                    fontWeight: "700",
-                    borderRadius: "5px",
-                    pointer: "cursor",
-                  }}
-                  type="submit"
-                  value="Submit"
-                />
+                <Form.Group
+                  as={Col}
+                  controlId="validationCustom04"
+                  className="mb-3"
+                >
+                  <Form.Control
+                    as="input"
+                    type="submit"
+                    value="Submit"
+                    placeholder="Subject"
+                    style={{
+                      fontSize: "1.2em",
+                      fontWeight: "700",
+                      borderRadius: "5px",
+                      pointer: "cursor",
+                    }}
+                  />
+                </Form.Group>
               </Form>
             </div>
           </div>

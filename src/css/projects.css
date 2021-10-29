@@ -24,8 +24,12 @@
 }
 
 .testimonialHeaderTextContainer {
-  margin: 10px 0px;
+  margin-top: 40px;
   text-align: center;
+}
+
+.testimonialHeaderText {
+  margin-bottom: 0px;
 }
 /* .horizontalDivider {
   color: #000000;
@@ -34,8 +38,8 @@
 } */
 
 .testimonialSliderContainer {
-  margin: 20px 0px;
-  padding: 20px 5px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px 0px 20px 5px;
 }
 .testimonialBox {
   background-color: #f58634;
