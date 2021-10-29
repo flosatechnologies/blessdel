@@ -10,15 +10,18 @@ import "../css/whoWeAreSection.css";
 class WhoWeAre extends Component {
   render() {
     return (
-      <Container fluid={true} className="mainBox-WhoWeAreSection">
+      <Container fluid={true} className="mainBox-WhoWeAreSection  ">
         <Row className="firstSubBox-WhoWeAreSection ">
           <Col lg={{ span: 8, offset: 2 }}>
             <Row>
-              <Col id="whoweare" className="sectionHeaderText-WhoWeAreSection">
-                <h1>Who We Are</h1>
+              <Col
+                id="whoweare"
+                className="sectionHeaderText-WhoWeAreSection pt-5"
+              >
+                <h1 className="pt-4">Who We Are</h1>
               </Col>
             </Row>
-            <Row>
+            <Row className="pt-3">
               <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={12}>
                 <Col className="ourHistoryIconContainer-WhoWeAreSection">
                   <MdHistory

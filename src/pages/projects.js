@@ -14,8 +14,8 @@ import Sena from "../assets/images/Sena-edited.jpg";
 
 function Projects() {
   return (
-    <div id="projects">
-      <div className="bg-primary text-dark text-center p-3">
+    <div id="projects" className="pt-4">
+      <div className="bg-primary text-light text-center  p-5">
         <h1>Projects</h1>
       </div>
       <div className="Container">
