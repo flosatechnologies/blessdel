@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
+import "../css/contact.css";
 import { InputGroup, Row, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import {
@@ -137,13 +138,17 @@ function ContactUs() {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-                <Button
-                  style={{ textAlign: "center" }}
+                <input
+                  style={{
+                    width: "10rem",
+                    height: "3rem",
+                    fontWeight: "700",
+                    borderRadius: "5px",
+                    pointer: "cursor",
+                  }}
                   type="submit"
-                  className="bg-light text-dark fw-bold submitBtn"
-                >
-                  Submit
-                </Button>
+                  value="Submit"
+                />
               </Form>
             </div>
           </div>
