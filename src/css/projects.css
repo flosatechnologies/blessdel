@@ -1,0 +1,55 @@
+.carouselImg {
+  width: 100vw;
+  height: auto;
+  /* sizes:"(min-width: 36em) 33.3vw, 100vw" */
+}
+
+.testimonialImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.imgAndInfoContainer {
+  text-align: center;
+}
+
+.testimonialText {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: white;
+  padding-top: 10px;
+}
+
+.testimonialHeaderTextContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.testimonialHeaderText {
+  margin-bottom: 0px;
+}
+/* .horizontalDivider {
+  color: #000000;
+  padding: 1px 0px;
+  text-align: center;
+} */
+
+.testimonialSliderContainer {
+  margin: 10px 0px 20px 0px;
+  padding: 10px 0px 20px 5px;
+}
+.testimonialBox {
+  background-color: #f58634;
+  padding: 15px;
+  border-radius: 7px;
+}
+.nameTestimony {
+  font-weight: bolder;
+}
+
+.roleTestimony {
+  font-size: 0.8em;
+}

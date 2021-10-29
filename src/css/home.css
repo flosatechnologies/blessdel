@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* body::before {
+  display: block;
+  content: "";
+  height: 30px;
+} */
+
+.image-fluid {
+  height: 87vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url(../assets/images/D1.jpg);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-bar {
+  margin-left: -5;
+}
+
+.header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-btn {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 12rem;
+  margin-top: 10rem;
+}
+
+.btn-btn:hover,
+.btn-btn:focus {
+  background-color: orange;
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.one {
+  display: flex;
+}
+
+#header {
+  margin-top: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.btn-btn {
+  margin-top: 5em;
+}
+#btn {
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
+}
+
+p:before {
+  content: "Integrity";
+  color: #e65bb7;
+  animation-name: replacement;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes replacement {
+  0% {
+    opacity: 0.5;
+    animation-timing-function: ease-in-out;
+  }
+
+  20% {
+    opacity: 0.5;
+    content: "Honesty";
+    color: rgb(0, 255, 255);
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    opacity: 0.5;
+    content: "Ethical";
+    color: rgb(238, 255, 0);
+  }
+  80% {
+    opacity: 0.5;
+    content: "Cost Effective";
+    color: #28f175;
+  }
+  100% {
+    opacity: 0.5;
+    content: "Trustworthy";
+    color: rgb(255, 192, 203);
+  }
+}
+.header {
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1.8px;
+}
+
+.button {
+  background-color: #fff;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
