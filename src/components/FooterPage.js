@@ -26,7 +26,7 @@ function FooterPage() {
                 marginLeft: "4px",
               }}
             >
-              Blessdel
+              Blessdel Enterprise
             </span>
           </Col>
 
@@ -39,15 +39,21 @@ function FooterPage() {
             xxl={5}
             className="developerTextContainer"
           >
-            Powered by
-            <span
-              style={{
-                color: "#40f167",
-                marginLeft: "1px",
-                fontSize: "15px",
-              }}
-            >
-              FLOSA Technologies
+            Developed by
+            <span style={{ flexDirection: "row" }}>
+              <a
+                href="https://instagram.com/flosatech"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "#05fcec",
+                  textDecoration: "none",
+                  paddingLeft: "5px",
+                  cursor: "pointer",
+                }}
+              >
+                FLOSA Technologies
+              </a>
             </span>
           </Col>
         </Row>
