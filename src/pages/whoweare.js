@@ -69,8 +69,8 @@ class WhoWeAre extends Component {
                   />
                 </Col>
                 <Col className="ourVisionTextBox-WhoWeAreSection">
-                  Our vision is to provide quality service wtih integrity,
-                  honesty, ethical, cost effective and in truthworthy manner.
+                  Our vision is to provide quality service with integrity,
+                  honesty, ethical, cost effective and in trustworthy manner.
                 </Col>
               </Col>
               <Col xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>
@@ -125,7 +125,7 @@ class WhoWeAre extends Component {
                 </Col>
                 <Col className="ourClientTextBox-WhoWeAreSection">
                   Our clients are the reason for our existence and we therefore
-                  always endeavor to satisfy thier needs in terms of quality,
+                  always endeavor to satisfy their needs in terms of quality,
                   cost, time and safety.
                 </Col>
               </Col>

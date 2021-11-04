@@ -48,6 +48,7 @@ function ContactUs() {
               <h5>
                 <a
                   href="https://wa.me/+233243628024"
+                  target="_blank"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <Whatsapp color="green" size={50} /> +233 243 628 024
