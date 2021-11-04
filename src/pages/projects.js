@@ -111,7 +111,7 @@ function Projects() {
         </Row>
       </Container>
       <Container className="testimonialSliderContainer" fluid={true}>
-        <Carousel fade>
+        <Carousel fade controls={false}>
           <Carousel.Item interval={3500}>
             <Container>
               <Row>
