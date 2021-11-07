@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Helmet } from "react-helmet";
 import WhoWeAre from "./pages/whoweare";
 import Services from "./pages/services";
 import Projects from "./pages/projects";
@@ -12,6 +13,17 @@ import ImageComponent from "./components/ImageComponent";
 function App() {
   return (
     <div>
+      <Helmet>
+        <title>Blessdel</title>
+        <meta
+          name="description"
+          content="We stand for Integrity, Honesty, Ethical, Cost effective, trustworthy"
+        />
+        <meta
+          name="keywords"
+          content="Blessdel, bless, construction, design, cctv, electric fence, civil engineering"
+        />
+      </Helmet>
       <NavbarMenu />
       <Home />
       <WhoWeAre />

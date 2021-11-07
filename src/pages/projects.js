@@ -27,10 +27,16 @@ function Projects() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3 style={{ color: "#fff" }}>E-Block Project</h3>
-              <h5 style={{ color: "#fff" }}>
-                Site inspection of an E-Block Project at Afram Plains North
-              </h5>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h3 className="projectTitle">E-Block Project</h3>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h5 className="projectDescription">
+                    Site inspection of an E-Block Project at Afram Plains North
+                  </h5>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -41,8 +47,16 @@ function Projects() {
             />
 
             <Carousel.Caption>
-              <h3 style={{ color: "#fff" }}>Supervised Project</h3>
-              <h5 style={{ color: "#fff" }}>Supervised classroom block</h5>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h3 className="projectTitle">Supervised Project</h3>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h5 className="projectDescription">
+                    Supervised classroom block
+                  </h5>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -53,10 +67,16 @@ function Projects() {
             />
 
             <Carousel.Caption>
-              <h3 style={{ color: "#fff" }}>Site Visitation</h3>
-              <h5 style={{ color: "#fff" }}>
-                Eastern Regional Minister on site visitation
-              </h5>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h3 className="projectTitle">Site Visitation</h3>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h5 className="projectDescription">
+                    Eastern Regional Minister on site visitation
+                  </h5>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -67,10 +87,16 @@ function Projects() {
             />
 
             <Carousel.Caption>
-              <h3 style={{ color: "#fff" }}>University of Education</h3>
-              <h5 style={{ color: "#fff" }}>
-                Construction of a lecture block at Winneba
-              </h5>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h3 className="projectTitle">University of Education</h3>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h5 className="projectDescription">
+                    Construction of a lecture block at Winneba
+                  </h5>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -81,10 +107,16 @@ function Projects() {
             />
 
             <Carousel.Caption>
-              <h2 style={{ color: "#fff" }}>Mr. Ben's Project</h2>
-              <h4 style={{ color: "#fff" }}>
-                A 4 bedroom residential apartment
-              </h4>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h2 className="projectTitle">Mr. Ben's Project</h2>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h4 className="projectDescription">
+                    A 4 bedroom residential apartment
+                  </h4>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -95,8 +127,16 @@ function Projects() {
             />
 
             <Carousel.Caption>
-              <h2 style={{ color: "#fff" }}>Mrs Sena Kemetse's Project</h2>
-              <h4 style={{ color: "#fff" }}>2 Storey 8bedroom residence</h4>
+              <div className="titleDescriptionContainer">
+                <div className="projectTitleContainer">
+                  <h2 className="projectTitle">Mrs Kemetse's Project</h2>
+                </div>
+                <div className="projectDescriptionContainer">
+                  <h4 className="projectDescription">
+                    2 Storey 8bedroom residence
+                  </h4>
+                </div>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -111,7 +151,7 @@ function Projects() {
         </Row>
       </Container>
       <Container className="testimonialSliderContainer" fluid={true}>
-        <Carousel fade>
+        <Carousel fade controls={false}>
           <Carousel.Item interval={3500}>
             <Container>
               <Row>
@@ -131,7 +171,7 @@ function Projects() {
                           <img
                             src={testImg}
                             className="testimonialImg"
-                            alt="testimonial image"
+                            alt="testimonialTwo"
                           />
                         </Col>
                       </Row>
@@ -159,7 +199,7 @@ function Projects() {
                     <Col className="testimonialText">
                       I met Blessdel 4 years ago and upon giving my building to
                       them all I can say is they are true professionals, honest
-                      and do they work efficiently. I will therefore recommend
+                      and do their work efficiently. I will therefore recommend
                       them for anyone
                     </Col>
                   </Row>
@@ -187,7 +227,7 @@ function Projects() {
                           <img
                             src={testImg2}
                             className="testimonialImg"
-                            alt="testimonial image"
+                            alt="testimonialOne"
                           />
                         </Col>
                       </Row>
