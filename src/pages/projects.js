@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "../css/projects.css";
 import testImg from "../assets/images/testimony1.jpg";
 import testImg2 from "../assets/images/testimony2.jpg";
-import "../css/imageComponent.css";
+import "../css/ImageComponent.css";
 import { Container, Col, Row } from "react-bootstrap";
 import EB2 from "../assets/images/E-Block2-edited.jpg";
 import SUPER from "../assets/images/supervised-edited.jpg";
