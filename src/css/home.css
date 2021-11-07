@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  justify-self: center;
 }
 
 .btn-btn {
@@ -53,7 +54,7 @@
   color: black;
   font-weight: bold;
   cursor: pointer;
-  margin-right: 12rem;
+  /* margin-right: 18rem; */
   margin-top: 10rem;
 }
 
@@ -66,7 +67,7 @@
 
 .one {
   justify-content: center;
-  margin-left: 5em;
+  /* padding-left: 20px; */
 }
 
 #header {
