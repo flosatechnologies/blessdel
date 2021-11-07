@@ -199,7 +199,7 @@ function Projects() {
                     <Col className="testimonialText">
                       I met Blessdel 4 years ago and upon giving my building to
                       them all I can say is they are true professionals, honest
-                      and do they work efficiently. I will therefore recommend
+                      and do their work efficiently. I will therefore recommend
                       them for anyone
                     </Col>
                   </Row>
