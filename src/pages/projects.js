@@ -235,7 +235,7 @@ function Projects() {
                         <Col className="nameTestimony">Festus Mordzinu</Col>
                       </Row>
                       <Row>
-                        <Col className="roleTestimony">CEO, company Name</Col>
+                        <Col className="roleTestimony">Building Expert</Col>
                       </Row>
                     </Col>
                     <Row>
