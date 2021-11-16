@@ -3,19 +3,19 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 
-// G-NXB6SL49BN
+// // G-NXB6SL49BN
 
-ReactGA.initialize("G-NXB6SL49BN"); // add your tracking id here.
-ReactGA.pageview(window.location.pathname + window.location.search);
+// ReactGA.initialize("G-NXB6SL49BN"); // add your tracking id here.
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
