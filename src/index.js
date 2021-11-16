@@ -5,9 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ReactGA from "react-ga";
 
-// G-3453SF2ML0
+// G-NXB6SL49BN
 
-ReactGA.initialize("G-3453SF2ML0"); // add your tracking id here.
+ReactGA.initialize("G-NXB6SL49BN"); // add your tracking id here.
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
