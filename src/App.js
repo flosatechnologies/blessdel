@@ -14,10 +14,13 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>Blessdel</title>
+        <title>Blessdel construction</title>
         <meta
           name="description"
-          content="We stand for Integrity, Honesty, Ethical, Cost effective, trustworthy"
+          content="blessdel construction have very experienced
+          and seasoned staff in the various fields of specialties such
+          as Architects, Surveyors, Builders, Civil, Electrical and
+          Plumbing Engineers."
         />
         <meta
           name="keywords"
