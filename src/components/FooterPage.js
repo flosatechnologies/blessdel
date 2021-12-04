@@ -26,7 +26,7 @@ function FooterPage() {
                 marginLeft: "4px",
               }}
             >
-              Blessdel Enterprise
+              Blessdel Construction
             </span>
           </Col>
 
