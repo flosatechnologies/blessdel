@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "../css/contact.css";
 import { Col } from "react-bootstrap";
-import { GeoAlt, Phone, Whatsapp } from "react-bootstrap-icons";
+import { GeoAlt, Phone, Whatsapp, Instagram } from "react-bootstrap-icons";
 
 function ContactUs() {
   const [validated, setValidated] = useState(false);
@@ -49,9 +49,21 @@ function ContactUs() {
                 <a
                   href="https://wa.me/+233243628024"
                   target="_blank"
+                  rel="noreferrer"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   <Whatsapp color="green" size={50} /> +233 243 628 024
+                </a>
+              </h5>
+              <br />
+              <h5>
+                <a
+                  href="https://instagram.com/blessdelconstruction/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <Instagram color="#8a3ab9" size={50} /> Connect with us
                 </a>
               </h5>
             </div>
