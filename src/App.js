@@ -24,7 +24,7 @@ function App() {
         />
         <meta
           name="keywords"
-          content="Blessdel, bless, construction, design, cctv, electric fence, civil engineering"
+          content="Blessdel, bless, construction, design, cctv, electric, fence, civil, Engineering, ghana, "
         />
       </Helmet>
       <NavbarMenu />

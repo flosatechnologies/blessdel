@@ -25,8 +25,8 @@ function ContactUs() {
           <div className="row g-4 text-white">
             <div className="col-md">
               <h5>
-                If you are interested in our services, contact the expertise of
-                BLESSDEL ENTERPRISE today.
+                If you are interested in our services, contact BLESSDEL
+                CONSTRUCTION today for our expertise.
               </h5>
               <br />
               <h5>

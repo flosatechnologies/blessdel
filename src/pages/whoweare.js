@@ -6,6 +6,7 @@ import { FaEye, FaChalkboardTeacher } from "react-icons/fa";
 import { BiSmile, BiTargetLock } from "react-icons/bi";
 import { HiOutlinePhone } from "react-icons/hi";
 import "../css/whoWeAreSection.css";
+import { Helmet } from "react-helmet";
 
 class WhoWeAre extends Component {
   render() {
@@ -40,7 +41,7 @@ class WhoWeAre extends Component {
                   />
                 </Col>
                 <Col className="ourHistoryTextBox-WhoWeAreSection">
-                  BLESSDEL ENTERPRISE was established in 2009 and was duly
+                  BLESSDEL CONSTRUCTION was established in 2009 and was duly
                   registered under the Companies Code of Ghana 1963(ACT 179) in
                   September 2012. Our company is one of the fast growing
                   businesses both in size and scope. We have very experienced
