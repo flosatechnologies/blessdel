@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import "../css/contact.css";
 import { Col } from "react-bootstrap";
-import { GeoAlt, Phone, Whatsapp, Instagram } from "react-bootstrap-icons";
+import { GeoAlt, Phone, Whatsapp, Instagram, Facebook } from "react-bootstrap-icons";
 
 function ContactUs() {
   const [validated, setValidated] = useState(false);
@@ -56,6 +56,17 @@ function ContactUs() {
                 </a>
               </h5>
               <br />
+              <h5>
+                <a
+                  href="https://facebook.com/groups/3495939390531305/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <Facebook color="blue" size={50} /> Blessdel Enterprise
+                </a>
+              </h5>
+              <br/>
               <h5>
                 <a
                   href="https://instagram.com/blessdelconstruction/"
