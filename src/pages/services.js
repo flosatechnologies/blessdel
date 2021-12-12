@@ -33,7 +33,7 @@ export default class Services extends Component {
             </h5>
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Design1} style={{ height: 210 }} />
+                <Card.Img variant="top" src={Design1} alt="design" style={{ height: 210 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -49,7 +49,7 @@ export default class Services extends Component {
             </Col>
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Site3} style={{ height: 210 }} />
+                <Card.Img variant="top" src={Site3} alt="site" style={{ height: 210 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -65,7 +65,7 @@ export default class Services extends Component {
             </Col>
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Design2} style={{ height: 210 }} />
+                <Card.Img variant="top" src={Design2} alt="design" style={{ height: 210 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -86,6 +86,7 @@ export default class Services extends Component {
                 <Card.Img
                   variant="top"
                   src={Surveying}
+                  alt="survey"
                   style={{ height: 210 }}
                 />
                 <Card.Body>
@@ -106,6 +107,7 @@ export default class Services extends Component {
                 <Card.Img
                   variant="top"
                   src={Electricals}
+                  alt="electricals"
                   style={{ height: 210 }}
                 />
                 <Card.Body>
@@ -123,7 +125,7 @@ export default class Services extends Component {
             </Col>
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Fence} style={{ height: 210 }} />
+                <Card.Img variant="top" src={Fence} alt="fence" style={{ height: 210 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -141,7 +143,7 @@ export default class Services extends Component {
           <Row className="third">
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Civil} style={{ height: 180 }} />
+                <Card.Img variant="top" src={Civil} alt="civil" style={{ height: 180 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -158,7 +160,7 @@ export default class Services extends Component {
 
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={CCTV} style={{ height: 180 }} />
+                <Card.Img variant="top" src={CCTV} alt="cctv" style={{ height: 180 }} />
                 <Card.Body>
                   <Card.Title
                     style={{
@@ -175,7 +177,7 @@ export default class Services extends Component {
 
             <Col style={{ paddingTop: 15 }}>
               <Card style={{ width: "18rem", marginBottom: "1rem" }}>
-                <Card.Img variant="top" src={Agro} style={{ height: 180 }} />
+                <Card.Img variant="top" src={Agro} alt="agric" style={{ height: 180 }} />
                 <Card.Body>
                   <Card.Title
                     style={{

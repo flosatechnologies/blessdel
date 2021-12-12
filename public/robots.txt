@@ -1,7 +1,4 @@
 User-agent: *
-Allow: /home
-Allow: /whoweare
-Allow: /services
-Allow: /projects
-Allow: /contacts
+Disallow: 
+
 
